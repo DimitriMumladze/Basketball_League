@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basketball.League.API", "Basketball.League.API\Basketball.League.API.csproj", "{7BC160ED-ECED-4785-B603-35DC3C17FFC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basketball.League.Domain", "Basketball.League.Domain\Basketball.League.Domain.csproj", "{5AF51C92-B947-4915-A193-E95D194BD3A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basketball.League.Application", "Basketball.League.Application\Basketball.League.Application.csproj", "{207A1C09-7B1B-4FFF-9630-671CEAC764CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basketball.League.Infrastructure", "Basketball.League.Infrastructure\Basketball.League.Infrastructure.csproj", "{A638DE1C-29EB-431E-ACFB-05528F629EE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GItIgnore", "GItIgnore", "{0097DADF-1FF6-45AA-9D34-3F9FC2F2828A}"
+	ProjectSection(SolutionItems) = preProject
+		gitignore.txt = gitignore.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BC160ED-ECED-4785-B603-35DC3C17FFC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC160ED-ECED-4785-B603-35DC3C17FFC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC160ED-ECED-4785-B603-35DC3C17FFC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC160ED-ECED-4785-B603-35DC3C17FFC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF51C92-B947-4915-A193-E95D194BD3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF51C92-B947-4915-A193-E95D194BD3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF51C92-B947-4915-A193-E95D194BD3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF51C92-B947-4915-A193-E95D194BD3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207A1C09-7B1B-4FFF-9630-671CEAC764CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207A1C09-7B1B-4FFF-9630-671CEAC764CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207A1C09-7B1B-4FFF-9630-671CEAC764CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207A1C09-7B1B-4FFF-9630-671CEAC764CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A638DE1C-29EB-431E-ACFB-05528F629EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A638DE1C-29EB-431E-ACFB-05528F629EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A638DE1C-29EB-431E-ACFB-05528F629EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A638DE1C-29EB-431E-ACFB-05528F629EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {182DB703-382E-4313-A9B4-FE62F7F69532}
+	EndGlobalSection
+EndGlobal

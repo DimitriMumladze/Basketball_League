@@ -1,0 +1,6 @@
+@Basketball.League.API_HostAddress = http://localhost:5228
+
+GET {{Basketball.League.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

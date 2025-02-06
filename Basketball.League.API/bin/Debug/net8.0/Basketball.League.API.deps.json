@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Basketball.League.API/1.0.0": {
+        "runtime": {
+          "Basketball.League.API.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Basketball.League.API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
