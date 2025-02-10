@@ -3,6 +3,7 @@
 public class Team
 {
     public int Id { get; set; }
+    public string Name { get; set; } = null!;
     public DateTime CreationTime { get; set; }
     public int CityId { get; set; }
 

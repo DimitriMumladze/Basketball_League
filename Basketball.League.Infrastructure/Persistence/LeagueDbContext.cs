@@ -11,6 +11,7 @@ internal class LeagueDbContext(DbContextOptions<LeagueDbContext> options) : DbCo
     internal DbSet<State> States { get; set; }
     internal DbSet<Team> Teams { get; set; }
     internal DbSet<TeamOwner> TeamOwners { get; set; }
+    internal DbSet<Position> Positions { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {                                 
@@ -34,6 +35,11 @@ internal class LeagueDbContext(DbContextOptions<LeagueDbContext> options) : DbCo
           .WithMany(t => t.Players)
           .HasForeignKey(p => p.TeamId);
 
+        modelBuilder.Entity<Player>()
+           .HasOne(p => p.Position)
+           .WithMany(pos => pos.Players) // Add this line!
+           .HasForeignKey(p => p.PositionId);
+
         // TeamOwner (join table) configuration for many-to-many relationship between Team and Owner
         modelBuilder.Entity<TeamOwner>()
           .HasKey(to => new { to.TeamId, to.OwnerId }); // Composite primary key
@@ -47,5 +53,7 @@ internal class LeagueDbContext(DbContextOptions<LeagueDbContext> options) : DbCo
           .HasOne(to => to.Owner)
           .WithMany(o => o.TeamOwners)
           .HasForeignKey(to => to.OwnerId);
+
+
     }
 }
