@@ -5,15 +5,15 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basketball.League.API", "Basketball.League.API\Basketball.League.API.csproj", "{7BC160ED-ECED-4785-B603-35DC3C17FFC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basketball.League.Domain", "Basketball.League.Domain\Basketball.League.Domain.csproj", "{5AF51C92-B947-4915-A193-E95D194BD3A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basketball.League.Domain", "Basketball.League.Domain\Basketball.League.Domain.csproj", "{5AF51C92-B947-4915-A193-E95D194BD3A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basketball.League.Application", "Basketball.League.Application\Basketball.League.Application.csproj", "{207A1C09-7B1B-4FFF-9630-671CEAC764CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basketball.League.Application", "Basketball.League.Application\Basketball.League.Application.csproj", "{207A1C09-7B1B-4FFF-9630-671CEAC764CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basketball.League.Infrastructure", "Basketball.League.Infrastructure\Basketball.League.Infrastructure.csproj", "{A638DE1C-29EB-431E-ACFB-05528F629EE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basketball.League.Infrastructure", "Basketball.League.Infrastructure\Basketball.League.Infrastructure.csproj", "{A638DE1C-29EB-431E-ACFB-05528F629EE1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GItIgnore", "GItIgnore", "{0097DADF-1FF6-45AA-9D34-3F9FC2F2828A}"
 	ProjectSection(SolutionItems) = preProject
-		gitignore.txt = gitignore.txt
+		.gitignore = .gitignore
 	EndProjectSection
 EndProject
 Global
