@@ -6,7 +6,7 @@ public class Owner
 {
     public int Id { get; set; }
     public string FullName { get; set; } = null!;
-    public BigInteger NetWorth { get; set; }
+    public long NetWorth { get; set; }
 
     public ICollection<TeamOwner> TeamOwners { get; set; } = new List<TeamOwner>();
 }

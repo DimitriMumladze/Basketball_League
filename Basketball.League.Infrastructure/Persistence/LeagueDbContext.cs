@@ -13,7 +13,9 @@ internal class LeagueDbContext(DbContextOptions<LeagueDbContext> options) : DbCo
     internal DbSet<TeamOwner> TeamOwners { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {                                                  
+    {                                 
+        base.OnModelCreating(modelBuilder);
+
         // City and State relationship (one-to-many: City belongs to State)
         modelBuilder.Entity<City>()
           .HasOne(c => c.State)

@@ -18,4 +18,5 @@
     <ProjectReference Include="..\Basketball.League.Application\Basketball.League.Application.csproj" />
   </ItemGroup>
 
+
 </Project>

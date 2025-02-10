@@ -9,7 +9,7 @@ public class Player
     public string FullName { get; set; } = null!;
     public int JerseyNumber { get; set; }
     public Position Position { get; set; }
-    public BigInteger Salary { get; set; }
+    public long Salary { get; set; }
     public DateTime DateBirth { get; set; }
     public int TeamId { get; set; }
 
