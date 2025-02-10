@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Basketball.League.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56299abb636301f49803cfd16596e94ec8b9a1c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2846fe7efc6dc34c2a853ee75a9f1540996fb7c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Basketball.League.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Basketball.League.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
