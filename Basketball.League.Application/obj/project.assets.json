@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dimit\\Desktop\\Basketball League API\\BasketballLeague.CleanArchitecture.API\\Basketball.League.Application\\Basketball.League.Application.csproj",
+      "projectUniqueName": "C:\\Users\\dimit\\Desktop\\Basketball_League.API\\Basketball.League.Application\\Basketball.League.Application.csproj",
       "projectName": "Basketball.League.Application",
-      "projectPath": "C:\\Users\\dimit\\Desktop\\Basketball League API\\BasketballLeague.CleanArchitecture.API\\Basketball.League.Application\\Basketball.League.Application.csproj",
+      "projectPath": "C:\\Users\\dimit\\Desktop\\Basketball_League.API\\Basketball.League.Application\\Basketball.League.Application.csproj",
       "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dimit\\Desktop\\Basketball League API\\BasketballLeague.CleanArchitecture.API\\Basketball.League.Application\\obj\\",
+      "outputPath": "C:\\Users\\dimit\\Desktop\\Basketball_League.API\\Basketball.League.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +59,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\dimit\\Desktop\\Basketball League API\\BasketballLeague.CleanArchitecture.API\\Basketball.League.Domain\\Basketball.League.Domain.csproj": {
-              "projectPath": "C:\\Users\\dimit\\Desktop\\Basketball League API\\BasketballLeague.CleanArchitecture.API\\Basketball.League.Domain\\Basketball.League.Domain.csproj"
+            "C:\\Users\\dimit\\Desktop\\Basketball_League.API\\Basketball.League.Domain\\Basketball.League.Domain.csproj": {
+              "projectPath": "C:\\Users\\dimit\\Desktop\\Basketball_League.API\\Basketball.League.Domain\\Basketball.League.Domain.csproj"
             }
           }
         }

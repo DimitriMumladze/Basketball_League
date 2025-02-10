@@ -4,7 +4,9 @@ public class Team
 {
     public int Id { get; set; }
     public DateTime CreationTime { get; set; }
-
-    //FK
     public int CityId { get; set; }
+
+    public City City { get; set; } = null!;
+    public ICollection<Player> Players { get; set; } = new List<Player>();
+    public ICollection<TeamOwner> TeamOwners { get; set; } = new List<TeamOwner>();
 }

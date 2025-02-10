@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dimit\\Desktop\\Basketball League API\\BasketballLeague.CleanArchitecture.API\\Basketball.League.Domain\\Basketball.League.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\dimit\\Desktop\\Basketball_League.API\\Basketball.League.Domain\\Basketball.League.Domain.csproj",
       "projectName": "Basketball.League.Domain",
-      "projectPath": "C:\\Users\\dimit\\Desktop\\Basketball League API\\BasketballLeague.CleanArchitecture.API\\Basketball.League.Domain\\Basketball.League.Domain.csproj",
+      "projectPath": "C:\\Users\\dimit\\Desktop\\Basketball_League.API\\Basketball.League.Domain\\Basketball.League.Domain.csproj",
       "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dimit\\Desktop\\Basketball League API\\BasketballLeague.CleanArchitecture.API\\Basketball.League.Domain\\obj\\",
+      "outputPath": "C:\\Users\\dimit\\Desktop\\Basketball_League.API\\Basketball.League.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
