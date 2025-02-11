@@ -1,4 +1,5 @@
-﻿using FluentValidation;
+﻿using Basketball.League.Domain.Repositories;
+using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -14,7 +15,7 @@ public static class ServiceCollectionExtensions
         services.AddAutoMapper(applicationAssembly);
 
         services.AddValidatorsFromAssembly(applicationAssembly)
-            .AddFluentValidationAutoValidation();
+        .AddFluentValidationAutoValidation();
 
     }
 }

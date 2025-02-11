@@ -17,7 +17,7 @@ internal class CityRepository(LeagueDbContext dbContext) : ICityRepository
         throw new NotImplementedException();
     }
 
-    public async Task<IEnumerable<City>> GetAllAsync()
+    public async Task<ICollection<City>> GetAllAsync()
     {
         var cities = await dbContext.Cities.ToListAsync();
         return cities;
