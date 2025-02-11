@@ -1,6 +1,4 @@
-﻿using System.Numerics;
-
-namespace Basketball.League.Domain.Entities;
+﻿namespace Basketball.League.Domain.Entities;
 
 public class Owner
 {
