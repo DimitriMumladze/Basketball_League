@@ -19,7 +19,7 @@ internal class CityRepository(LeagueDbContext dbContext) : ICityRepository
 
     public async Task<ICollection<City>> GetAllAsync()
     {
-        var cities = await dbContext.Cities.ToListAsync();
+        var cities = await dbContext.Cities.Include(x => x.Teams).ToListAsync();
         return cities;
     }
 

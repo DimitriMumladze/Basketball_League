@@ -1,6 +1,6 @@
 ﻿using Basketball.League.Domain.Entities;
 
-namespace Basketball.League.Application.Features.Dtos;
+namespace Basketball.League.Application.Features.Dtos.CityMap;
 
 public class CityDto
 {

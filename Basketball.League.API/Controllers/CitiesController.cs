@@ -1,5 +1,5 @@
 ﻿using Basketball.League.Application.Features.Cities.Queries;
-using Basketball.League.Application.Features.Dtos;
+using Basketball.League.Application.Features.Dtos.CityMap;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
