@@ -10,8 +10,9 @@ namespace Basketball.League.API.Controllers;
 public class CitiesController(IMediator mediator) : ControllerBase
 {
     [HttpGet]
-    public async Task<ActionResult<ICollection<CityDto>>> GetAll([FromRoute] GetAllCitiesQuery query)
+    public async Task<ActionResult<ICollection<CityDto>>> GetAll()
     {
+        var query = new GetAllCitiesQuery();
         var cities = await mediator.Send(query);
         return Ok(cities);
     }
