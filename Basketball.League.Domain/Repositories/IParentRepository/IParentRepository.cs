@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Basketball.League.Domain.Entities;
 
-namespace Basketball.League.Domain.Repositories.IParentRepository
+namespace Basketball.League.Domain.Repositories.IParentRepository;
+
+public interface IParentRepository<T> where T : class
 {
-    internal interface IParentRepository
-    {
-    }
+    Task<ICollection<T>> GetAllAsync();
+    Task<T> GetById(int id);
+    Task<int> Create(T entity);
+    Task Delete(T entity);
+    Task SaveChanges();
 }

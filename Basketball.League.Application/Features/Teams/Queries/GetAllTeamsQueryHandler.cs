@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using Basketball.League.Application.Features.Dtos.CityMap;
 using Basketball.League.Application.Features.Dtos.TeamMap;
 using Basketball.League.Domain.Repositories;
 using MediatR;

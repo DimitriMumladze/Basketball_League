@@ -15,5 +15,6 @@ public static class ServiceCollectionExtension
         services.AddDbContext<LeagueDbContext>(options => options.UseSqlServer(connectionString));
 
         services.AddScoped<ICityRepository, CityRepository>();
+        services.AddScoped<ITeamRepository, TeamRepository>();
     }
 }

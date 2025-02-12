@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Basketball.League.Application.Features.Dtos.CityMap;
+using Basketball.League.Application.Features.Dtos.TeamMap;
+using MediatR;
 
-namespace Basketball.League.Application.Features.Teams.Queries
+namespace Basketball.League.Application.Features.Cities.Queries;
+
+public class GetAllTeamsQuery : IRequest<ICollection<TeamDto>>
 {
-    internal class GetAllTeamsQuery
-    {
-    }
 }
