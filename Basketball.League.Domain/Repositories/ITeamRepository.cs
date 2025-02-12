@@ -1,5 +1,8 @@
-﻿namespace Basketball.League.Domain.Repositories;
+﻿using Basketball.League.Domain.Entities;
+using Basketball.League.Domain.Repositories.IParentRepository;
 
-public interface ITeamRepository
+namespace Basketball.League.Domain.Repositories;
+
+public interface ITeamRepository : IParentRepository<Team>
 {
 }
